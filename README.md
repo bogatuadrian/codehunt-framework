@@ -12,18 +12,19 @@ NeuralNetwork class and implement its virtual methods.
 
 ### Build
 
+To build your project just run
 ```
 make build
 ```
 
 ### Run
 
-Running all the test with
+Running all the test with the next command
+will also generate .png files representing the iteration-error plot for
+each test.
 ```
 make
 ```
-will also generate .png files representing the iteration-error plot for
-each test.
 
 You can also run a certain test with
 ```
