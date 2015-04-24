@@ -2,8 +2,8 @@
 
 ## Description
 
-A framework based on the python implementation of the ML course's second
-homework.
+A framework implemented in C++ based on the python test framework
+for the 2nd homework of the ML course.
 
 Implement your neural network in NeuralNetwork.h or derive the
 NeuralNetwork class and implement its virtual methods.
