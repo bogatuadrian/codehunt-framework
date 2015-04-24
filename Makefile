@@ -2,7 +2,7 @@
 CC=g++
 CCFLAGS=-Wall -O3 -std=c++11
 EXEC=test
-OBJ=test.o
+OBJ=test.o NeuralNetwork.o
 
 
 run: build
@@ -15,6 +15,9 @@ build: $(OBJ)
 
 test.o: test.cc
 	$(CC) -c $(CCFLAGS) test.cc -o test.o
+
+NeuralNetwork.o: NeuralNetwork.cc
+	$(CC) -c $(CCFLAGS) NeuralNetwork.cc -o NeuralNetwork.o
 
 clean:
 	rm -f $(OBJ)

@@ -13,12 +13,8 @@ public:
 	NeuralNetwork(const std::vector<range> &in, const std::vector<range> &out) : in_domain(in), out_domain(out) {}
 
 	/* TODO: compute and return output */
-	virtual std::vector<int> input(const std::vector<int> &input) {
-		std::vector<int> res(input.size());
-		return res;
-	}
+	virtual std::vector<int> input(const std::vector<int> &input);
 	/* TODO: update network w/ given output */
-	virtual void output(const std::vector<int> &output) {
-	}
+	virtual void output(const std::vector<int> &output);
 };
 #endif
