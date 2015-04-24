@@ -10,7 +10,7 @@
 
 #include "utils.h"
 
-#include "Test.h"
+#include "test.h"
 #include "NeuralNetwork.h"
 
 /*
