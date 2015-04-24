@@ -8,6 +8,11 @@ homework.
 Implement your neural network in NeuralNetwork.h or derive the
 NeuralNetwork class and implement its virtual methods.
 
+## Dependencies
+
+* make
+* gnuplot
+
 ## Usage
 
 ### Build
@@ -34,3 +39,17 @@ or
 ```
 make ARGS=<test_no>
 ```
+
+### Clean
+
+```
+make clean-all
+```
+will also remove the .png files as opposed to
+```
+make clean
+```
+
+##
+
+If you find anything wrong with this implementation please add an issue.
