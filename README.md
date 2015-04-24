@@ -12,6 +12,7 @@ NeuralNetwork class and implement its virtual methods.
 
 * make
 * gnuplot
+* gcc >= 4.7
 
 ## Usage
 
