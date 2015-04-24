@@ -20,22 +20,22 @@ static const std::vector<Test> tests = {
 		{
 			{{-100, 100}},
 			{{-100, 100}},
-			[] (const std::vector<int> in) -> std::vector<int> { return {-in[0]}; }
+			[] (const std::vector<int> &in) -> std::vector<int> { return {-in[0]}; }
 		},
 		{
 			{{-100, 100}, {-100, 100}},
 			{{-300, 300}, {-200, 200}},
-			[] (const std::vector<int> in) -> std::vector<int> { auto x = in[0]; auto y = in[1]; return {x - 2 * y, x + y};}
+			[] (const std::vector<int> &in) -> std::vector<int> { auto x = in[0]; auto y = in[1]; return {x - 2 * y, x + y};}
 		},
 		{
 			{{-100, 100}, {-100, 100}, {-100, 100}},
 			{{-300, 300}, {-300, 300}, {-300, 300}},
-			[] (const std::vector<int> in) -> std::vector<int> { auto x = in[0]; auto y = in[1]; auto z = in[2]; return {x + y + z, y, z};}
+			[] (const std::vector<int> &in) -> std::vector<int> { auto x = in[0]; auto y = in[1]; auto z = in[2]; return {x + y + z, y, z};}
 		},
 		{
 			{{-20, 20}},
 			{{400, 400}},
-			[] (const std::vector<int> in) -> std::vector<int> { auto x = in[0]; return {x * x};}
+			[] (const std::vector<int> &in) -> std::vector<int> { auto x = in[0]; return {x * x};}
 		}
 	};
 
