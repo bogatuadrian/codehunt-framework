@@ -22,9 +22,6 @@ main.o: main.cc
 NeuralNetwork.o: NeuralNetwork.cc
 	$(CC) -c $(CCFLAGS) NeuralNetwork.cc -o NeuralNetwork.o
 
-MyNeuralNetwork.o: MyNeuralNetwork.cc
-	$(CC) -c $(CCFLAGS) MyNeuralNetwork.cc -o MyNeuralNetwork.o
-
 clean:
 	rm -f $(OBJ)
 	rm -f $(EXEC)
