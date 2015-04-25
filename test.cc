@@ -12,7 +12,6 @@
 
 #include "test.h"
 #include "NeuralNetwork.h"
-#include "MyNeuralNetwork.h"
 
 /*
  * run_test - Runs a given test and outputs the error corresponding to an iteration
