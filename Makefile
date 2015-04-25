@@ -2,7 +2,7 @@
 CC=g++
 CCFLAGS=-Wall -O3 -std=c++11
 EXEC=test
-OBJ=test.o NeuralNetwork.o MyNeuralNetwork.o main.o
+OBJ=test.o NeuralNetwork.o main.o
 
 
 run: build
