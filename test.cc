@@ -47,7 +47,6 @@ int run_test(NeuralNetwork &nn, const Test &test, std::ostream &out = std::cout)
 		}
 		else {
 			for (unsigned i = 0; i < test.out_domain.size(); ++i) {
-				std::cout << o[i] << " " << output[i] << std::endl;
 				int delta = o[i] - output[i];
 				err += delta * delta;
 			}
